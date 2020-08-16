@@ -1,2 +1,2 @@
-# Ilkham-Karimzhan.github.io
+# Ilkham Karimzhan
 My first public site
