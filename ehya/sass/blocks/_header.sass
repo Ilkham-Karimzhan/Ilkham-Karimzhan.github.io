@@ -1,0 +1,96 @@
+.header
+  overflow: hidden
+  background: #FAFDFF
+// Nav
+.nav
+  display: flex
+  justify-content: space-between
+  height: 48px
+  padding: 26px 0
+  align-items: center
+  &-menu
+    display: flex
+    align-items: center
+  &-list
+    display: flex
+    list-style: none
+    margin: 0
+    padding: 0
+    &__link
+      margin-right: 27px
+      font-size: $md
+      line-height: $sm
+      font-weight: 600
+      &--burger
+        margin-right: 41px
+  &__button
+    margin-left: 30px
+    width: 129px
+    height: 46px
+    color: $sub-t-col
+    background-color: $white
+    border: 1px solid $sub-t-col
+    border-radius: 8px
+    transition: 0.5s
+    &:hover
+      color: $white
+      background-color: $sub-t-col
+// Block Hero
+.hero
+  display: flex
+  justify-content: space-between
+  padding-top: 78px
+  &-info
+    margin-right: 22px
+    min-width: 550px
+    max-width: 550px
+    &__subtitle
+      font-family: "Roboto", sans-serif
+      font-size: 48px
+      line-height: 60px
+    &__title
+      font-family: "Roboto", sans-serif
+      font-size: 36px
+      line-height: 60px
+    &__suptitle
+      font-family: "Roboto", sans-serif
+      margin: 0 0 20px
+      font-size: 48px
+      line-height: 60px
+    &__text
+      width: 457px
+      margin-bottom: 63px
+      font-size: 18px
+      line-height: 32px
+      color: $t-col
+    &__button
+      width: 243.09px
+      height: 56px
+      background-color: $primary
+      border-radius: 8px
+      color: $white
+      transition: 0.5s
+      &:hover
+        background-color: $white
+        border: 1px solid $primary
+        color: $primary
+    &__button a
+      color: inherit
+      text-decoration: none
+      font-weight: bold
+      font-size: 18px
+      line-height: 25px
+  &-bcg
+    width: 700px
+    height: 560px
+    position: relative
+    &__img
+      position: absolute
+    &__iphone
+      z-index: 2
+      left: -10px
+      bottom: -32px
+    &__mack
+      z-index: 1
+      left: 38px
+      top: 8px

@@ -1,0 +1,51 @@
+.media
+  padding: 100px 0 120px
+  text-align: center
+  &__suptitle
+    margin: 0 0 20px
+    font-size: $sm
+    line-height: $sub-tt
+    font-weight: 600
+    letter-spacing: 2px
+    text-transform: uppercase
+    color: $secondary
+  &__title
+    margin: 0 0 60px
+    font-size: $xl
+    line-height: $tt
+  &-content
+    display: flex
+    justify-content: center
+    &-card
+      margin-left: 10px
+      width: 255px
+      height: 263px
+      text-align: center
+// Media Card
+.card
+  &__img
+    margin-bottom: 35px
+  &__title
+    margin-bottom: 12px
+    font-size: 20px
+    line-height: 24px
+  &__text
+    margin-bottom: 19px
+    font-size: $md
+    line-height: 24px
+  &__link
+    margin: 0
+    position: relative
+    font-weight: 700
+    line-height: 25px
+    color: $secondary
+    text-decoration: none
+    &::after
+      content: ""
+      position: absolute
+      right: -13%
+      top: 7px
+      width: 13px
+      height: 16px
+      background-image: url(../image/SVG/media/link-arrow.svg)
+      background-repeat: no-repeat
