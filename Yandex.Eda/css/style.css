@@ -77,3 +77,123 @@
   color: #000000;
   background-color: #ffaf19;
 }
+.slide {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  padding: 100px;
+  border-radius: 20px;
+}
+.slide-text-light {
+  background-color: #808080;
+  color: #ffffff;
+}
+.slide-content {
+  max-width: 400px;
+}
+.slide-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+}
+.slide-text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 32px 13px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+.button-primary {
+  background-color: #f47322;
+  color: #ffffff;
+}
+.button-default {
+  background-color: #ffffff;
+  color: #5f5f61;
+}
+.slide-summer {
+  background-image: url(../img/summer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  min-height: 380px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 36px 32px;
+}
+.card-text-light {
+  color: #ffffff;
+}
+.card:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.card-title {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+}
+.card-text {
+  max-width: 200px;
+  margin: 0;
+  margin-bottom: 72px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.card-price {
+  margin: 0;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+}
+.card-delivery {
+  display: block;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.sweet-basket {
+  background-image: url(../img/sweet-basket.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.minimum-action {
+  background-image: url(../img/minimum-action.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
