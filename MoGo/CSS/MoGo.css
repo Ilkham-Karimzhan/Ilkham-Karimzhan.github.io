@@ -456,7 +456,7 @@ hr{
 	border-right: 			2px solid #ccc;
 	position: 				absolute;
 	right: 					20px;
-	top: 					50%;
+	top: 					20%;
 	z-index: 				1;
 
 	transform: 				translateY(-50%);
