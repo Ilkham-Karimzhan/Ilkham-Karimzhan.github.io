@@ -1,0 +1,75 @@
+.footer
+   background-color: $footer-col
+   &-outer
+      padding: 63px 0 67px
+      background-color: #383838
+   &-inner
+      display: flex
+      justify-content: space-between
+   &-subscribe
+      width: 339px
+      &__text
+         margin: 0 0 30px 0
+         color: $footer-text
+         font-size: 14px
+         line-height: 24px
+   &__title
+      margin: 0 0 15px 0
+      color: $white
+      font-weight: 700
+      line-height: 24px
+      text-transform: uppercase
+   &-form
+      display: flex
+      position: relative
+      width: 323px
+      height: 41px
+      border: 1px solid $footer-text
+      &__btn
+         width: 128px
+         padding: 0 20px
+         background-color: $footer_text
+         border: none
+         font-size: 14px
+         font-weight: 700px
+         color: $white
+         line-height: 24px
+         transition: 0.3s
+         &:hover
+            background-color: $footer-col
+      &__input
+         height: 100% !important
+         background-color: $footer-col
+         border: none
+         outline: none
+         line-height: 24
+         &[type="text"]
+            padding-left: 11px
+            background-color: $footer-col
+   &-list
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      height: 145px
+      margin: 0
+      padding: 0
+      list-style: none
+      &__item
+         font-size: 14px
+         line-height: 24px
+         color: $footer-text
+   &-bottom
+      &--inner
+         display: flex
+         justify-content: space-between
+         align-items: center
+         padding: 20px 0
+   &__copyright
+      margin: 0
+      font-size: 12px
+      line-height: 24px
+      color: #5F5F5F
+   &__logo
+      transition: 0.3s
+#svg:hover .footer__logo
+   fill: #C031F2 !important

@@ -1,0 +1,35 @@
+*
+   box-sizing: border-box
+body
+   font-family: 'Roboto', sans-serif
+   font-size: $sm-md
+   color: $text-color
+.container
+   max-width: 1200px
+   margin: 0 auto
+.btn
+   width: 123px
+   height: 42px
+   background-color: $primary
+   color: $white
+   border: none
+   border-radius: 100px
+   line-height: 19px
+   outline: none
+   box-shadow: none
+   transition: 0.3s
+   cursor: pointer
+   &:hover
+      background-color: #fff
+      color: #000
+.title
+   font-size: $title
+   font-weight: 700
+   line-height: 30px
+   color: $text-sec
+
+@mixin subtitle()
+   font-size: $subtitle
+   font-weight: 700
+   line-height: 26px
+   color: $black

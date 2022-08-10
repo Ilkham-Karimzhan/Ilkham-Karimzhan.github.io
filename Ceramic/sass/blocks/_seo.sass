@@ -1,0 +1,32 @@
+.seo
+   padding-bottom: 66px
+   &__title
+      margin: 0 0 25px 0
+   &__text
+      margin: 0 0 25px 0
+      font-weight: 300
+      line-height: 30px
+      background: linear-gradient(180deg, #646464 56.7%, rgba(255, 255, 255, 0) 112.8%)
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+      background-clip: text
+      text-fill-color: transparent
+   &__link
+      position: relative
+      line-height: 19px
+      color: $text-color
+      text-decoration: none
+      &::after
+         content: ''
+         width: 10px
+         height: 10px
+         background-image: url(../assets/svg/arrow-right.svg)
+         background-repeat: no-repeat
+         display: block
+         position: absolute
+         bottom: 25%
+         transform: translateY(25%)
+         right: -15px
+         color: $text-color
+      &::hover
+         text-decoration: underline

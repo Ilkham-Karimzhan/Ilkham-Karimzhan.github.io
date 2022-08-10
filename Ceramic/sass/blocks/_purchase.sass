@@ -1,0 +1,44 @@
+.purchase
+   margin-bottom: 110px
+   &__title
+      margin: 0 0 65px 0
+   &-row
+      display: flex
+   &-card
+      position: relative
+      width: 122px
+      height: 113px
+      margin-right: 102px
+      &__title
+         @include subtitle
+         margin: 0
+         &::after
+            content: ""
+            display: block
+            width: 58px
+            height: 8px
+            position: absolute
+            left: 110%
+            bottom: 35px
+            background-image: url(../assets/img/purchase/arrow-left.svg)
+         &--dis
+            &::after
+               display: none
+      &--large
+         width: 177px !important
+      &__img
+         margin-bottom: 25px
+      &--dis
+         margin-right: 0
+   &-line
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 51px 0
+      &__hr
+         width: 100%
+         background-color: #A1A1A1
+      &__text
+         margin: 0 20px 0 0
+         color: $subtext-col2
+         line-height: 19px

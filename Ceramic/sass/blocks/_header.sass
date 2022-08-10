@@ -1,0 +1,167 @@
+.header
+   &__logo
+      margin-right: 121px
+   &-top
+      display: flex
+      align-items: center
+      padding: 21px 0 17px
+      &__contact
+         margin-right: 98px
+      &__list
+         display: flex
+         list-style: none
+         align-items: center
+         padding: 0
+      &__item
+         &--cart
+            display: flex
+            margin: 0 63px 0 64px
+         &--price
+            margin-left: 6px
+            font-weight: 700
+            font-size: $sm
+            line-height: 14px
+            color: #6B422B
+   &__num
+      margin: 0
+      font-weight: 700
+      line-height: 19px
+   &__desc
+      margin: 0
+      font-size: $sm
+      color: $primary
+      line-height: 14px
+   &-search
+      display: flex
+      position: relative
+      overflow: hidden
+      width: 280px
+      height: 38px
+      margin-right: 100px
+      padding-left: 17px
+      border: 1px solid #DCDCDC
+      border-radius: 50px
+      &__input
+         height: 100% !important
+         border: none
+         outline: none
+         font-weight: 300
+         font-size: 14px
+      &__btn
+         position: absolute
+         top: 0
+         right: 0
+         height: 100%
+         margin-right: 23px
+         padding: 0
+         background-color: #ffffff
+         border: none
+// Navigation bar
+.navbar
+   display: flex
+   align-items: center
+   background-color: #fff !important
+   border: none
+   box-shadow: none
+   &-list
+      width: 100%
+      list-style: none
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin: 0
+      padding: 21px 0 20px
+      &__link
+         font-weight: 700
+         color: $text-color
+         line-height: 19px
+         text-decoration: none
+         transition: 0.2s
+         &:hover
+            color: $primary
+   &__catalog
+      position: relative
+      display: inline-block
+      margin-right: 239px
+      font-weight: 700
+      line-height: 19px
+      color: $primary
+      cursor: pointer
+      &::after
+         content: url(../assets/svg/arrow-bottom.svg)
+         position: absolute
+         right: -15px
+// Dropdown
+.dropdown
+   &__btn
+      border: none
+      outline: none
+      background-color: #ffffff
+   &-content
+      position: absolute
+      background-color: #f1f1f1
+      width: 226px
+      padding: 15px 15px 15px
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+      z-index: 100
+      &__item
+         display: block
+         margin-bottom: 10px
+         & a
+            font-weight: 700
+            line-height: 30px
+            color: #A9A9A9
+            text-transform: uppercase
+            text-decoration: none
+            transition: 0.3s
+         &:hover a
+            color: $primary
+   &--dis
+      display: none
+   &--active
+      display: block
+// Swiper
+.header
+   &-swiper
+      position: relative
+      height: 400px
+      overflow: hidden
+      &__title
+         max-width: 380px
+         margin: 0 0 22px 0
+         font-family: 'Oswald'
+         font-size: $title
+         font-weight: 700
+         color: $white
+         line-height: 39px
+         text-transform: uppercase
+      &__text
+         max-width: 680px
+         margin: 0 0 33px 0
+         color: $white
+         line-height: 28px
+.swiper
+   &-slide
+      padding-top: 75px
+      &--first
+         background-image: url(../assets/img/header/slide-1.jpg)
+      &--second
+         background-image: url(../assets/img/header/slide-2.jpg)
+      &--third
+         background-image: url(../assets/img/header/slide-3.jpg)
+      &--forth
+         background-image: url(../assets/img/header/slide-4.jpg)
+   &-pagination
+      &-bullet
+         width: 7px !important
+         height: 7px !important
+         margin: 0 9px 0 0 !important
+         background: #E8CB9F !important
+         opacity: 1 !important
+         &-active
+            background-color: $white !important
+.header
+   &-pagination
+      width: 70px !important
+      left: 360px !important
+      bottom: 33px !important

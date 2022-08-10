@@ -1,0 +1,51 @@
+.goods
+   &-content
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      padding-top: 23px
+   &-card
+      position: relative
+      width: 217px
+      height: 145px
+      padding-top: 63px
+      background-color: #F6F6F6
+      overflow: hidden
+      margin-bottom: 20px
+      cursor: pointer
+      &__text
+         margin: 0 0 0 103px
+         font-weight: 900
+         color: $text-sec
+         line-height: 19px
+         text-transform: uppercase
+      &__img
+         box-sizing: content-box
+         position: absolute
+         transform: translateX(50%)
+         left: -61%
+         bottom: 0
+         max-width: 71%
+         // goods second column. The position of img elements in design causes varios sizes of them. So, we need individual approch for any column.
+         &--second
+            box-sizing: content-box
+            position: absolute
+            bottom: 3px
+            left: 0
+            width: 40%
+      &--second
+         position: relative
+         width: 217px
+         height: 145px
+         padding-top: 63px
+         background-color: #F6F6F6
+         overflow: hidden
+#special-card
+   left: -45% !important
+   bottom: 10px !important
+.long-text
+   margin: 0 0 0 80px
+.small-card
+   width: 37% !important
+.big-card
+   width: 30% !important
